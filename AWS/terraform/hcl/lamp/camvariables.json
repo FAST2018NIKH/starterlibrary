@@ -101,7 +101,7 @@
     {
         "description": "Public SSH key used to connect to the virtual guest; Allow the openSSH format key with optional comment (with optional email)",
         "hidden": false,
-        "default": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmmYZGDIOD2/fmeupU+GAxPuPFrrV7kCg3AhACb16SOP667i4l1TRVH/qKvtd56t4Hbzon/GPBwfggkm/SSLQyX7ujoB9W1K1OmVaT/N1UjaZRZcYr261GC2R5d4oH3An3VulP3mqUVGF99xeT9+9VVZYyLPwFBE8RILFdwWX3VcFczmN+9y9TRzluPYlCGBJVrDo/7aBGkEwsVKPkF3eFrZ9xClwHqcF6GceXDqLHCETGPsyg4evH0BP8alWRJhqRoigoTMfmq3gAVUMIPNPkRgsPB3E2/IhWAIf92sv2hdJdn27Z18WrHaTUADp0o+NzyqoZayDanLDe9ahNuTip"
+        "default": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmmYZGDIOD2/fmeupU+GAxPuPFrrV7kCg3AhACb16SOP667i4l1TRVH/qKvtd56t4Hbzon/GPBwfggkm/SSLQyX7ujoB9W1K1OmVaT/N1UjaZRZcYr261GC2R5d4oH3An3VulP3mqUVGF99xeT9+9VVZYyLPwFBE8RILFdwWX3VcFczmN+9y9TRzluPYlCGBJVrDo/7aBGkEwsVKPkF3eFrZ9xClwHqcF6GceXDqLHCETGPsyg4evH0BP8alWRJhqRoigoTMfmq3gAVUMIPNPkRgsPB3E2/IhWAIf92sv2hdJdn27Z18WrHaTUADp0o+NzyqoZayDanLDe9ahNuTip",
         "immutable": false,
         "label": "Public SSH Key",
         "name": "public_key",
@@ -125,6 +125,7 @@
     {
         "description": "Password for cam user; Allow 8 to 16 alphanumeric characters",
         "hidden": false,
+        "default": "Admin1234",
         "immutable": false,
         "label": "User Password for SSH and MySQL",
         "name": "cam_pwd",
