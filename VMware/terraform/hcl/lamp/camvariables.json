@@ -1,6 +1,6 @@
 [
     {
-        "name": "mariadb_server_hostname",
+        "name": "mariadb_server_hostname123",
         "label": "MariaDB Server Hostname",
         "description": "Hostname of the virtual instance (with MariaDB installed) to be deployed; Allow 1 to 80 alphanumeric characters with special characters in [.- _]",
         "default": "lamp-mariadb-vm",
